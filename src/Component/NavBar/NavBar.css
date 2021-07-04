@@ -1,0 +1,32 @@
+/** @format */
+
+.navbar__outer {
+	height: 60px;
+	background-color: #323754;
+	position: fixed;
+	top: 0;
+	z-index: 3;
+	width: 100vw;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.profile_img {
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.navbar__option {
+	color: white;
+	border: 0.5px #bfc1ca;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.navbar_option_link {
+	text-decoration: none;
+}
