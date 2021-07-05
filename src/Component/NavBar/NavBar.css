@@ -3,9 +3,9 @@
 .navbar__outer {
 	height: 60px;
 	background-color: #323754;
-	position: fixed;
+	position: sticky;
 	top: 0;
-	z-index: 3;
+	z-index: 1;
 	width: 100vw;
 }
 

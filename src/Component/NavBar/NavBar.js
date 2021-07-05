@@ -3,36 +3,30 @@
 import React from "react";
 import "./NavBar.css";
 import { Avatar } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 function NavBar() {
 	return (
 		<div className="navbar__outer">
 			<div className="navbar">
-				<Avatar
-					className="profile_img"
-					src="https://avatars.githubusercontent.com/u/34748576?v=4"
-				/>
-				<a
-					href="https://reactjs.org/"
-					target="_blank"
-					className="navbar_option_link"
-				>
+				<Link to="/">
+					<Avatar
+						className="profile_img"
+						src="https://avatars.githubusercontent.com/u/34748576?v=4"
+					/>
+				</Link>
+
+				<Link className="navbar_option_link" to="/react">
 					<div className="navbar__option"> React </div>
-				</a>
-				<a
-					href="https://firebase.google.com"
-					target="_blank"
-					className="navbar_option_link"
-				>
+				</Link>
+
+				<Link className="navbar_option_link" to="/firebase">
 					<div className="navbar__option"> Firebase </div>
-				</a>
-				<a
-					href="https://nodejs.org/en/"
-					target="_blank"
-					className="navbar_option_link"
-				>
+				</Link>
+
+				<Link className="navbar_option_link" to="/nodejs">
 					<div className="navbar__option"> Nodejs </div>
-				</a>
+				</Link>
 			</div>
 		</div>
 	);

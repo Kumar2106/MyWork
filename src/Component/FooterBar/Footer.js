@@ -102,7 +102,7 @@ function Footer() {
 						<a
 							className="certificate"
 							target="_blank"
-							href="https://courses.learncodeonline.in/learn/certificate/1383604-27376"
+							href="https://html-code-editor-e72f2.web.app/"
 						>
 							HTML Editor
 						</a>
@@ -110,17 +110,30 @@ function Footer() {
 						<a
 							className="certificate"
 							target="_blank"
-							href="https://www.credly.com/badges/663db6dc-4376-41f1-8173-8100c33e0001?source=linked_in_profile"
+							href="https://clone-10c57.web.app/"
 						>
-							Introduction to CyberSecurity
+							Amazon clone
 						</a>
 
 						<a
 							className="certificate"
 							target="_blank"
-							href="https://www.credly.com/badges/b749de61-f17f-4f6d-916b-b8b61adf4981?source=linked_in_profile"
+							href="https://clone-9ef18.web.app/"
 						>
-							CyberSecurity Essential
+							Google Clone
+						</a>
+					</div>
+				</div>
+
+				<div className="projects">
+					<h3 className="certifications__heading">Projects</h3>
+					<div className="certifications__content">
+						<a
+							className="certificate"
+							target="_blank"
+							href="https://netflix-clone-f7139.web.app/"
+						>
+							Netflix Clone
 						</a>
 					</div>
 				</div>
