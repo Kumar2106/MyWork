@@ -14,7 +14,6 @@
 	margin-right: 100px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 }
 
 .footer__content > div > img {
@@ -28,4 +27,43 @@
 .icon {
 	color: #7989ba;
 	margin-right: 10px;
+}
+
+.contact__details {
+	margin-right: 50px;
+}
+
+.certifications__details {
+	margin-right: 50px;
+}
+
+.certifications__heading {
+	color: white;
+}
+h3 {
+	color: white;
+}
+
+.certifications__content {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.certificate {
+	text-decoration: none;
+	color: #5a80b7;
+	margin-bottom: 5px;
+}
+
+.footer__bottom {
+	color: #999;
+	text-align: center;
+}
+
+.footer__divider {
+	margin-left: 100px;
+	margin-top: 20px;
+	margin-right: 100px;
+	margin-bottom: 15px;
 }

@@ -39,17 +39,97 @@ function Footer() {
 				</div>
 
 				<div className="certifications__details">
-					<p>Certifications</p>
+					<h3 className="certifications__heading">Certifications</h3>
+					<div className="certifications__content">
+						<a
+							className="certificate"
+							target="_blank"
+							href="https://courses.learncodeonline.in/learn/certificate/1383604-33058"
+						>
+							React Native
+						</a>
+
+						<a
+							className="certificate"
+							target="_blank"
+							href="https://courses.learncodeonline.in/learn/certificate/1383604-23129"
+						>
+							Node Js
+						</a>
+
+						<a
+							className="certificate"
+							target="_blank"
+							href="https://courses.learncodeonline.in/learn/certificate/1383604-16452"
+						>
+							React Native Design
+						</a>
+					</div>
+				</div>
+
+				<div className="certifications__details">
+					<h3 className="certifications__heading">Certifications</h3>
+					<div className="certifications__content">
+						<a
+							className="certificate"
+							target="_blank"
+							href="https://courses.learncodeonline.in/learn/certificate/1383604-27376"
+						>
+							Android App Development
+						</a>
+
+						<a
+							className="certificate"
+							target="_blank"
+							href="https://www.credly.com/badges/663db6dc-4376-41f1-8173-8100c33e0001?source=linked_in_profile"
+						>
+							Introduction to CyberSecurity
+						</a>
+
+						<a
+							className="certificate"
+							target="_blank"
+							href="https://www.credly.com/badges/b749de61-f17f-4f6d-916b-b8b61adf4981?source=linked_in_profile"
+						>
+							CyberSecurity Essential
+						</a>
+					</div>
 				</div>
 
 				<div className="projects">
-					<img src="https://avatars.githubusercontent.com/u/34748576?v=4" />
-				</div>
+					<h3 className="certifications__heading">Projects</h3>
+					<div className="certifications__content">
+						<a
+							className="certificate"
+							target="_blank"
+							href="https://courses.learncodeonline.in/learn/certificate/1383604-27376"
+						>
+							HTML Editor
+						</a>
 
-				<div></div>
+						<a
+							className="certificate"
+							target="_blank"
+							href="https://www.credly.com/badges/663db6dc-4376-41f1-8173-8100c33e0001?source=linked_in_profile"
+						>
+							Introduction to CyberSecurity
+						</a>
+
+						<a
+							className="certificate"
+							target="_blank"
+							href="https://www.credly.com/badges/b749de61-f17f-4f6d-916b-b8b61adf4981?source=linked_in_profile"
+						>
+							CyberSecurity Essential
+						</a>
+					</div>
+				</div>
 			</div>
 
-			<div className="footer__bottom"></div>
+			<div className="footer__bottom">
+				<hr className="footer__divider"></hr>
+				Designed By Kumar Aditya
+			</div>
 		</div>
 	);
 }
